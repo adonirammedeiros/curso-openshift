@@ -1,6 +1,6 @@
 const http = require('http')
 const port = 8080
-const ip = 'localhost'
+const ip = '0.0.0.0'
 
 const server = http.createServer((req, res) => {
   console.log('Recebendo uma request!')
